@@ -1,0 +1,54 @@
+/* The margin and color will apply to all of the tags of html */
+* {    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+body {
+    background-image: url(golden_boy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: burlywood;
+    width: 900px;
+    margin-left: 35vh;
+}
+header {
+    background-color: rgba(0, 255, 255, 0.288);
+    text-align : center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+nav {
+    background-color: rgba(100, 148, 237, 0.288);
+    text-align : center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 21px;
+}
+
+main p {
+    background-color: rgba(85, 107, 47, 0.288);
+    padding-top: 15px;
+    padding-left: 20px;
+    text-align: left;
+    height: 600px;
+    font-size: 20px;
+
+}
+
+
+footer p {
+    background-color: rgba(233, 150, 122, 0.288);
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 19px;
+}
+
